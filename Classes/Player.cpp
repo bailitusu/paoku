@@ -44,7 +44,7 @@ bool Player::isJumping() {
     }
     
     CCPoint spPosition = getSprite()->getPosition();
-    if(spPosition.y<10)
+    if(spPosition.y<20)
         return false;
     else
         return true;
